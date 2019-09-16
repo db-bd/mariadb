@@ -28,3 +28,8 @@ mysqld --install-manual MariaDB
 net start MariaDB [aka mariadb]
 net stop MariaDB  [aka mariadb]
 ```
+* Connect & version check
+```sh
+mysql -uadmin -pnopass
+SHOW VARIABLES LIKE '%version%'
+```
