@@ -24,7 +24,7 @@ CREATE USER admin@localhost IDENTIFIED BY 'nopass';
 mysqld --install-manual MariaDB
 ```
 
-* If we want to install MariaDB (change port to 3360) alongside MySQL(mysql default port = 3306)
+* If we want to install `MariaDB` alongside `MySQL` then Change `MySQL` Default port `3306` to `3360`
 ```sh
 mysqld --install-manual MariaDB --port=3360
 ```
