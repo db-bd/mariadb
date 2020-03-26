@@ -1,4 +1,4 @@
-## Mariadb Windows Portable Install
+## Mariadb Windows Portable Install Alongside MySQL
 * Download Maria DB from [downloads.mariadb.org](https://downloads.mariadb.org/)
 * Extract Maria DB e.g ` D:\Database\Mariadb `
 * From bin directory run command
